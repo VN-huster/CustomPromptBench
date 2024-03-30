@@ -3,6 +3,7 @@
 
 from abc import ABC
 import torch
+from torch import cuda, bfloat16
 
 class LMMBaseModel(ABC):
     """
